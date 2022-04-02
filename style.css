@@ -1,0 +1,129 @@
+body{
+    font-family: 'Poppins',sans-serif;
+    margin: 0;
+}
+h1{
+    font-size: 50px;
+}
+h2{
+    font-size: 40px;
+}
+p{
+    color:dimgray;
+}
+.heading-highlight{
+    color:orange;
+}
+section{
+    height: 500px;
+    padding-bottom: 150px;
+}
+.half-width{
+    width: 35%;
+    margin: 5%;
+    padding: 2%;
+    float:left;
+}
+.half-width img{
+    width: 90%;
+}
+#heading-line{
+    border-left: 5px solid;
+    padding-left: 10px;
+    border-color: orange;
+
+}
+.link-button{
+    text-decoration: none;
+    background-color: tomato;
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 700;
+}
+.mission-heading{
+    text-align: center;
+    color: #131031;
+}
+.mission-highlight{
+    color: #FFAD5A;
+}
+
+.mission-area{
+    display: flex;
+    justify-content: center;
+}
+.mission-details{
+    width: 30%;
+    margin: 2%;
+    padding: 10px 20px;
+    border-radius: 10px;
+    
+}
+.mission-details img{
+    width: 40%;
+}
+
+#mission{
+    background-color: #e8f9fb;
+}
+#vission{
+    background-color:#ebd2d2 ;
+}
+#goals{
+    background-color:#FFF4D6;
+}
+.flexible-content{
+    display: flex;
+    
+}
+.develop-area{
+    background-image: url(images/shapes/shape-1.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: 20%;
+    box-sizing: border-box;
+
+}
+.image-area{
+    width: 50%;
+    padding-left: 7%;
+}
+.image-area img{
+    width: 80%;
+}
+.description-area{
+    width: 50%;
+    line-height: 1.7rem;
+}
+.community-area{
+    margin-top: 100px;
+    background-image: url(images/shapes/shape-1.png);
+    background-repeat: no-repeat;
+    background-position:right;
+    background-size: 15%;
+    box-sizing: border-box;
+}
+.community{
+    padding-left: 7%;
+}
+
+.portfolio-image img{
+    width: 50%;
+}
+
+footer{
+    background-color: black;
+    text-align: center;
+}
+.footer-area{
+    padding: 30px;
+}
+.footer-text{
+    font-family: Lobster;
+    font-style: italic;
+    color: white;
+}
+.footer-text-highlight{
+    color: #FF5959;
+}
