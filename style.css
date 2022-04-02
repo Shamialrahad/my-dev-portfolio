@@ -41,11 +41,11 @@ section{
     color: white;
     font-weight: 700;
 }
-.mission-heading{
+.mission-heading,.project-heading{
     text-align: center;
     color: #131031;
 }
-.mission-highlight{
+.mission-highlight,.project-highlight{
     color: #FFAD5A;
 }
 
@@ -111,7 +111,9 @@ section{
 .portfolio-image img{
     width: 50%;
 }
-
+.image-margin{
+    margin-top: 100px;
+}
 footer{
     background-color: black;
     text-align: center;
